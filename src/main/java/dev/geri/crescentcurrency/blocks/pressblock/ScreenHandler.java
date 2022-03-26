@@ -1,7 +1,7 @@
 package dev.geri.crescentcurrency.blocks.pressblock;
 
-import dev.geri.crescentcurrency.utils.CoinItem;
 import dev.geri.crescentcurrency.CrescentCurrency;
+import dev.geri.crescentcurrency.utils.CoinItem;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.CraftingResultInventory;
@@ -60,7 +60,7 @@ public class ScreenHandler extends net.minecraft.screen.ScreenHandler {
                 Slot slot = new Slot(input, j + i * 5, 39 + j * 18, 21 + i * 18) {
                     @Override
                     public boolean canInsert(ItemStack itemStack) {
-                        return itemStack.getItem() instanceof CoinItem;
+                        return itemStack.getItem() instanceof CoinItem && itemStack.getItem() != CrescentCurrency.getItem("platinum_coin");
                     }
                 };
                 this.addSlot(slot);
