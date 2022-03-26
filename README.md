@@ -26,9 +26,7 @@ You can use the press block to convert 10 of a coin to one of the higher tier.
 ## Setup
 1. Install [Fabric](https://fabricmc.net/use/installer/) and the [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 2. Download the latest JAR from the [releases](https://github.com/NotGeri/crescent-currency/releases)
-3. Copy the downloaded file to the `mods` directory of your game. If you are unsure how you can do that, please follow the GIF below.
+3. Copy the downloaded file to the `mods` directory of your game. If you are unsure how you can do that, please follow [this GIF](https://i.geri.dev/ibemrg.gif).
 4. Restart your game to apply the changes. 
 
 If you play on a server, please ensure to install it on the server as well.
-
-![img](https://i.geri.dev/ibemrg.gif)
