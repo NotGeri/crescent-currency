@@ -1,0 +1,9 @@
+{
+  "item.crescentcurrency.copper_coin":  "Copper Coin",
+  "item.crescentcurrency.silver_coin":  "§7Silver Coin",
+  "item.crescentcurrency.gold_coin":  "§6Gold Coin",
+  "item.crescentcurrency.platinum_coin":  "§bPlatinum Coin",
+  "block.crescentcurrency.press":  "Coin Press",
+  "crescentcurrency.gui.title":  "Coin Press",
+  "crescentcurrency.gui.button":  "Press Coins"
+}

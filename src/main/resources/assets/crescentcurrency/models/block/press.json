@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "crescentcurrency:block/press_front",
+    "north": "crescentcurrency:block/press_front",
+    "south": "crescentcurrency:block/press_side",
+    "east": "crescentcurrency:block/press_side",
+    "west": "crescentcurrency:block/press_front",
+    "up": "crescentcurrency:block/press_top",
+    "down": "crescentcurrency:block/press_side"
+  }
+}

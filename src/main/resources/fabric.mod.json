@@ -1,31 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "id": "crescentcurrency",
+  "version": "1.0",
+  "name": "Crescent Currency",
+  "description": "A simple mod to add some coins",
   "authors": [
-    "Me!"
+    "Geri"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://geri.dev/",
+    "sources": "https://github.com/NotGeri/crescent-currency"
   },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
+  "license": "MIT",
+  "icon": "assets/crescentcurrency/icon.png",
   "environment": "*",
   "entrypoints": {
+    "client": [
+      "dev.geri.crescentcurrency.CrescentCurrencyClient"
+    ],
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "dev.geri.crescentcurrency.CrescentCurrency"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
@@ -33,6 +31,5 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
